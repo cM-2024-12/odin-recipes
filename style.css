@@ -1,0 +1,24 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    background-color: black;
+    color: blue;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgba(34, 34, 249, 0.576);
+    color: white;
+}
+p {
+    color: black;
+    background-color: gray;
+    font-size: 12px;
+}
+img {
+    width: 500;
+    height: auto;
+}
