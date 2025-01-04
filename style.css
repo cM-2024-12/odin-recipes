@@ -2,12 +2,23 @@
     font-family: 'Times New Roman', Times, serif;
     background-color: gray;
 }
+.overview  {
+    margin: auto 0px;
+    padding: 10px;
+    display: inline-block;
+}
+
 h1 {
     font-size: 22px;
     font-weight: 700;
     background-color: black;
     color: blue;
     text-align: center;
+    margin: 0px auto;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    width: 200px;
+    height: auto;
 }
 h3 {
     font-size: 16px;
@@ -21,11 +32,23 @@ p {
     font-size: 12px;
 }
 img {
-    width: 500;
-    height: auto;
+    width: 50%;
+    height: 50;
+    padding: 10px;
+    margin: 0px auto;
 }
 
 .ingredients{
     color: cadetblue;
     background-color: rgb(107, 91, 91);
+}
+
+.recipe-container {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    padding: 20px; /* Add some space between the image and the overview */
+}
+
+.overview {
+    flex: 1; /* Make the overview take the remaining space */
 }
